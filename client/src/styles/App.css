@@ -1,0 +1,15 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+.mainheader {
+ width: 100vw;
+ height: 7vh;
+ position: fixed;
+ background: rgba(0,0,0,.3);
+ display: flex;
+ justify-content: space-around;
+}
+.thriftzpage {
+ display: flex;
+ flex-direction: column;
+}
